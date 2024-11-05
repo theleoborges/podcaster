@@ -12,8 +12,10 @@ There is a sample script in this repo that was created from the included PDF fil
 
 Once you have the script, save it to `script.txt` and generate the audio file:
 
+    $ pip install -r requirements.txt
     $ python main.py script.txt
 
 This will run **slow** on your laptop but it will work. It took about 10-15min to generate a 2.5min podcast. 
+The generated audio file will be saved to `podcast.wav`.
 
 Have fun!
